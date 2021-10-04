@@ -6,8 +6,6 @@ import {
   getTokenCount,
   PoolTokenCount,
   OrcaU64,
-  OrcaPoolToken,
-  OrcaToken,
 } from "@orca-so/sdk";
 import { orcaPoolConfigs } from "@orca-so/sdk/dist/constants/pools";
 import { usdcToken } from "@orca-so/sdk/dist/constants/tokens";
