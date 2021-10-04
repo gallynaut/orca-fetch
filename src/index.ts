@@ -1,13 +1,20 @@
 import { Connection, PublicKey } from "@solana/web3.js";
 import {
   getOrca,
+  Orca,
   OrcaPoolConfig,
   getTokenCount,
   PoolTokenCount,
   OrcaU64,
+  OrcaPoolToken,
+  OrcaToken,
 } from "@orca-so/sdk";
 import { orcaPoolConfigs } from "@orca-so/sdk/dist/constants/pools";
+import { usdcToken } from "@orca-so/sdk/dist/constants/tokens";
 import Decimal from "decimal.js";
+
+const usdc = usdcToken;
+const usdcMint = usdc.mint.toString();
 
 async function main() {
   try {
@@ -19,11 +26,11 @@ async function main() {
     const orca = getOrca(connection);
 
     // get public key of pool
-    const pk = new PublicKey(OrcaPoolConfig.SOL_USDC);
-    console.log(pk.toString());
-    const pool = orca.getPool(OrcaPoolConfig.SOL_USDC);
-    const supply = (await pool.getLPSupply()).toNumber();
-    const poolParams = orcaPoolConfigs[pk.toString()];
+    const poolConfig = OrcaPoolConfig.USDC_USDT;
+    console.log(`Pool: ${new PublicKey(poolConfig).toString()}`);
+    const pool = orca.getPool(poolConfig);
+
+    const poolParams = orcaPoolConfigs[poolConfig];
     const tokenA = pool.getTokenA();
     const tokenB = pool.getTokenB();
 
@@ -34,37 +41,76 @@ async function main() {
       tokenA,
       tokenB
     );
-    const tokenAAmount = new OrcaU64(
+    const numTokenA = new OrcaU64(
       tokenCount.inputTokenCount,
       tokenA.scale
     ).toNumber();
-    const tokenBAmount = new OrcaU64(
+    const numTokenB = new OrcaU64(
       tokenCount.outputTokenCount,
       tokenB.scale
     ).toNumber();
 
-    // get current rate of pool tokenA/tokenB
-    const rate = (
-      await pool.getQuote(
-        pool.getTokenA(),
-        new Decimal(1),
-        new Decimal(0.5) // low slippage
-      )
-    )
-      .getRate()
-      .toNumber();
+    // get current quote for each token
+    const priceA =
+      tokenA.mint.toString() === usdcMint
+        ? 1
+        : await getUSDCPrice(orca, tokenA.mint.toString());
+    const priceB =
+      tokenB.mint.toString() === usdcMint
+        ? 1
+        : await getUSDCPrice(orca, tokenB.mint.toString());
 
-    // calculate price
-    const price = (tokenAAmount * rate + tokenBAmount) / supply;
-    console.log(`$${price} ${tokenA.tag}/${tokenB.tag}`);
+    console.log(
+      `${tokenA.name}: N=${numTokenA} @ $${priceA} = $${numTokenA * priceA}`
+    );
+    console.log(
+      `${tokenB.name}: N=${numTokenB} @ $${priceB} = $${numTokenB * priceB}`
+    );
 
-    // check if tokenB is USDC
-    if (tokenB.tag !== "USDC") {
-      // find tokenB/USDC
-    }
+    // calculate LP token price
+    const poolLiquidity = numTokenA * priceA + numTokenB * priceB;
+    console.log(`Total Liquidity = $${poolLiquidity}`);
+    const supply = (await pool.getLPSupply()).toNumber();
+    console.log(`# LP Tokens = ${supply}`);
+    const lpTokenPrice = poolLiquidity / supply;
+    console.log(`LP Token Price: ${lpTokenPrice} USDC`);
   } catch (e) {
     // catch
+    console.log(e);
   }
+}
+
+// Look in Orca configs for a given base and quote mint address
+async function findPool(
+  baseMint: string,
+  quoteMint: string
+): Promise<OrcaPoolConfig> {
+  for (const k in orcaPoolConfigs) {
+    const pair = orcaPoolConfigs[k].tokenIds;
+    if (
+      pair.length >= 2 &&
+      pair.includes(baseMint) &&
+      pair.includes(quoteMint)
+    ) {
+      return k as OrcaPoolConfig;
+    }
+  }
+  throw `couldnt find pool for ${baseMint}/${quoteMint}`;
+}
+
+// Return the latest quote for a given USDC pool
+async function getUSDCPrice(orca: Orca, baseMint: string): Promise<number> {
+  const poolConfig = await findPool(baseMint, usdcMint);
+  const pool = orca.getPool(poolConfig);
+  return (
+    await pool.getQuote(
+      pool.getTokenA(),
+      new Decimal(1),
+      new Decimal(0.5) // low slippage
+    )
+  )
+    .getRate()
+    .toNumber();
 }
 
 main().then(
