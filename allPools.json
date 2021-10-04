@@ -2,262 +2,262 @@
   "SAMO/SOL": {
     "poolId": "SAMO/SOL",
     "poolAccount": "Hj45HZesMQD4ghdU7GuskiMyYBfxLnfibqKNgdaj8284",
-    "tokenAAmount": "2282878367717135",
-    "tokenBAmount": "87991844580",
+    "tokenAAmount": "2252741680827055",
+    "tokenBAmount": "89188743321",
     "poolTokenSupply": "3569083851068",
     "apy": {
-      "day": "0.074368910323305415613",
-      "week": "0.085329778198989315339",
-      "month": "0.38219217537068563605"
+      "day": "0.07424909060450515382",
+      "week": "0.081850598429973889749",
+      "month": "0.37100035140217958559"
     },
     "volume": {
-      "day": "3899.45754028098",
-      "week": "17416.28104532078",
-      "month": "264426.946708406"
+      "day": "3463.2047211041827",
+      "week": "17946.96557459899",
+      "month": "258325.10407133691"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.08188322756505774,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.10115535863468544,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/USDC": {
     "poolId": "SOL/USDC",
     "poolAccount": "6fTRDD7sYxCN7oyoSQaN1AWC3P2m8A6gVZzGrpej9DvL",
-    "tokenAAmount": "369299243772",
-    "tokenBAmount": "62067706470",
-    "poolTokenSupply": "11521072011107",
+    "tokenAAmount": "368096923744",
+    "tokenBAmount": "62297676957",
+    "poolTokenSupply": "11518599405389",
     "apy": {
-      "day": "0.1554223837383995461",
-      "week": "0.24175996545062186702",
-      "month": "0.3925656596564367759"
+      "day": "0.23661589346739804562",
+      "week": "0.24210181370017628134",
+      "month": "0.39445975336831948326"
     },
     "volume": {
-      "day": "22114.886476023894",
-      "week": "204916.16508108427",
-      "month": "1383235.9148357054"
+      "day": "32755.997653384915",
+      "week": "211641.48256489026",
+      "month": "1390769.6730681525"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.24436076692957692,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.22999123171524422,
+    "riskLevelModifiedTime": 1633364210744
   },
   "USDC/USDT": {
     "poolId": "USDC/USDT",
     "poolAccount": "8KZjKCNTshjwapD4TjWQonXBdi1Jm4Eks5rgrViK9UCx",
-    "tokenAAmount": "5865128679",
-    "tokenBAmount": "5875747161",
+    "tokenAAmount": "5868517401",
+    "tokenBAmount": "5872843888",
     "poolTokenSupply": "5851003243391",
     "apy": {
-      "day": "0.014207001351522129012",
-      "week": "0.0067124813841431696544",
-      "month": "0.0030895760293314107504"
+      "day": "0.015184877199202166614",
+      "week": "0.0088848161189130004392",
+      "month": "0.003596799783609927627"
     },
     "volume": {
-      "day": "208.66047414528",
-      "week": "703.8782035793324",
-      "month": "1173.680236243375"
+      "day": "242.453196",
+      "week": "883.2887875793325",
+      "month": "1353.090820243375"
     },
     "riskLevel": "minimal",
     "riskLevelVolatility": 0.00014428829708997733,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelModifiedTime": 1633364210744
   },
   "ETH/USDC": {
     "poolId": "ETH/USDC",
     "poolAccount": "DY8qBwVGLeLJSrWib7L16mL7oB4HNAQ2f9yiYWKof54v",
-    "tokenAAmount": "1064076",
-    "tokenBAmount": "3592190674",
+    "tokenAAmount": "1064087",
+    "tokenBAmount": "3592849468",
     "poolTokenSupply": "2437507284163",
     "apy": {
-      "day": "0.027183515546372994372",
-      "week": "0.043366824693672357923",
-      "month": "0.060295233219303050014"
+      "day": "0.051363591409511966834",
+      "week": "0.044890163894617113496",
+      "month": "0.061307470684883840972"
     },
     "volume": {
-      "day": "263.51099046453",
-      "week": "2131.67165257381",
-      "month": "11869.808269167048"
+      "day": "282.01611285092997",
+      "week": "2133.2585522858676",
+      "month": "11937.824132667047"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.10434732902880467,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08613971554787028,
+    "riskLevelModifiedTime": 1633364210744
   },
   "BTC/ETH": {
     "poolId": "BTC/ETH",
     "poolAccount": "Fz6yRGsNiXK7hVu4D2zvbwNXW8FQvyJ5edacs3piR1P7",
-    "tokenAAmount": "14180",
-    "tokenBAmount": "201680",
+    "tokenAAmount": "14099",
+    "tokenBAmount": "202843",
     "poolTokenSupply": "477137330242",
     "apy": {
-      "day": "0.0047092380194948509241",
-      "week": "0.016818958299251401406",
-      "month": "0.026359025844281373053"
+      "day": "0.0038962958185787392646",
+      "week": "0.012917439904446483126",
+      "month": "0.026489146833284311135"
     },
     "volume": {
-      "day": "8.478939100000002",
-      "week": "134.1103045842825",
-      "month": "442.35963126785"
+      "day": "7.8618288",
+      "week": "138.2865403842825",
+      "month": "450.22146006785"
     },
-    "riskLevel": "minimal",
-    "riskLevelVolatility": 0.0025217337337998733,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevel": "low",
+    "riskLevelVolatility": 0.016308200425836607,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ETH/SOL": {
     "poolId": "ETH/SOL",
     "poolAccount": "4vWJYxLx9F7WPQeeYzg9cxhDeaPjwruZXCffaSknWFxy",
-    "tokenAAmount": "676129",
-    "tokenBAmount": "13462550383",
+    "tokenAAmount": "676932",
+    "tokenBAmount": "13447540583",
     "poolTokenSupply": "345303098272",
     "apy": {
-      "day": "0.016042723831139127393",
-      "week": "0.02644577844971324231",
-      "month": "0.049322280434940421718"
+      "day": "0.019044504893724857462",
+      "week": "0.025034673335442479509",
+      "month": "0.048883914150063156251"
     },
     "volume": {
-      "day": "142.4847908319225",
-      "week": "1076.0068164246725",
-      "month": "6835.167282127185"
+      "day": "163.3683003082075",
+      "week": "1086.28206039705",
+      "month": "6735.66596970441"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.1125183641447096,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.11695328589194127,
+    "riskLevelModifiedTime": 1633364210744
   },
   "RAY/SOL": {
     "poolId": "RAY/SOL",
     "poolAccount": "4c8jpn6sLMrZHMYNq6idFfMdLBWEqn1r1wFNtgsPqTwE",
-    "tokenAAmount": "3801577609",
-    "tokenBAmount": "253483928562",
+    "tokenAAmount": "3801357854",
+    "tokenBAmount": "253557286647",
     "poolTokenSupply": "9829658720200",
     "apy": {
-      "day": "0.059933685705144155367",
-      "week": "0.077407800867762656681",
-      "month": "0.18748138408858135147"
+      "day": "0.066738993020917032794",
+      "week": "0.071842205271671466579",
+      "month": "0.18413505796601339301"
     },
     "volume": {
-      "day": "5065.168190304952",
-      "week": "39611.92977475955",
-      "month": "555484.7422291697"
+      "day": "4757.939244143958",
+      "week": "37011.56605779609",
+      "month": "542190.9526469781"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.061970306442522057,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.06792431416006302,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/USDT": {
     "poolId": "SOL/USDT",
     "poolAccount": "4bS6bkBdJ4B1Bt4ft3oGF8La7eKpCqz8xnu1AMpMxWSP",
-    "tokenAAmount": "64039185100",
-    "tokenBAmount": "10752828729",
+    "tokenAAmount": "63809967281",
+    "tokenBAmount": "10796714941",
     "poolTokenSupply": "3226541371288",
     "apy": {
-      "day": "0.11352612755562604098",
-      "week": "0.12102558485556545148",
-      "month": "0.21272743047407097365"
+      "day": "0.14443131382422862258",
+      "week": "0.12183402673614972976",
+      "month": "0.21330237796821173155"
     },
     "volume": {
-      "day": "2265.8126598048125",
-      "week": "15835.078388195607",
-      "month": "140638.79442916164"
+      "day": "2626.6409986501876",
+      "week": "15902.148504282024",
+      "month": "137897.5791369475"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.24418122023355096,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.2298137583749843,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/SRM": {
     "poolId": "SOL/SRM",
     "poolAccount": "C4k1gxs9NnPhSWUbtEpnptYiduy2ZWX237gGD22N8QeC",
-    "tokenAAmount": "126956739077",
-    "tokenBAmount": "2476300515",
+    "tokenAAmount": "126554919397",
+    "tokenBAmount": "2484425356",
     "poolTokenSupply": "4494206019642",
     "apy": {
-      "day": "0.054631446266462363667",
-      "week": "0.053640911513937830513",
-      "month": "0.12808409072339469996"
+      "day": "0.038960122403819473901",
+      "week": "0.052580893445549144805",
+      "month": "0.12728649915232436658"
     },
     "volume": {
-      "day": "2757.4256352512875",
-      "week": "14678.081679903373",
-      "month": "155235.22253335736"
+      "day": "2033.1700281439",
+      "week": "15005.994078806598",
+      "month": "154395.99003936094"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.09552108318039047,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08488900715439558,
+    "riskLevelModifiedTime": 1633364210744
   },
   "FTT/SOL": {
     "poolId": "FTT/SOL",
     "poolAccount": "G8Dd2ExLEvPkXMtiyeo7AM3W3Z6ueg5bpWQ4D4Raf6jo",
-    "tokenAAmount": "70718852",
-    "tokenBAmount": "23141514075",
+    "tokenAAmount": "70771993",
+    "tokenBAmount": "23127658995",
     "poolTokenSupply": "956749968567",
     "apy": {
-      "day": "0.037244245478312796009",
-      "week": "0.044588539702872031",
-      "month": "0.24031899669627284438"
+      "day": "0.045770168144246276668",
+      "week": "0.0445427137946208738",
+      "month": "0.24001122709219113778"
     },
     "volume": {
-      "day": "272.3861501142",
-      "week": "2068.4668136413775",
-      "month": "83298.63548576541"
+      "day": "312.1851182891475",
+      "week": "2062.1473363259624",
+      "month": "82736.20167478728"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.2047313430290352,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.20268502586852846,
+    "riskLevelModifiedTime": 1633364210744
   },
   "KIN/SOL": {
     "poolId": "KIN/SOL",
     "poolAccount": "7fAzYcD19gBD222pK3v7USX1URu1r6ThAGLR265DADjh",
-    "tokenAAmount": "3037574518694",
-    "tokenBAmount": "15804819703",
+    "tokenAAmount": "3050501083342",
+    "tokenBAmount": "15743027207",
     "poolTokenSupply": "1392511023581",
     "apy": {
-      "day": "0.058995157507868995257",
-      "week": "4.2601433279828399231",
-      "month": "1.9372407055398263463"
+      "day": "0.093620075001491731864",
+      "week": "3.9879489946361073737",
+      "month": "1.9254175246892492895"
     },
     "volume": {
-      "day": "293.9872953270893",
-      "week": "61559.739384685614",
-      "month": "1552912.7150462419"
+      "day": "452.8428711181682",
+      "week": "60020.68963629389",
+      "month": "1500931.738062682"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.03528320418505262,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.07053325298008355,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ROPE/SOL": {
     "poolId": "ROPE/SOL",
     "poolAccount": "4kMBJ8x85BgyYKi4t7ZSCh4gHK8U5QWjARzGuMCPiaeu",
-    "tokenAAmount": "62956296360023",
-    "tokenBAmount": "145933984360",
-    "poolTokenSupply": "6779583783688",
+    "tokenAAmount": "62000690159974",
+    "tokenBAmount": "141207059777",
+    "poolTokenSupply": "6617746470137",
     "apy": {
-      "day": "0.033985610717496299203",
-      "week": "0.07130168889879145643",
-      "month": "1.1734531763674340379"
+      "day": "0.032269170799518435851",
+      "week": "0.063533398209764973418",
+      "month": "1.1651138367452406046"
     },
     "volume": {
-      "day": "2618.14435492211",
-      "week": "19185.972481152745",
-      "month": "2013402.5099405386"
+      "day": "2484.558592008775",
+      "week": "19091.91726266777",
+      "month": "2003888.9719748697"
     },
     "riskLevel": "medium",
-    "riskLevelVolatility": 0.3136925382620519,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.3224855495396874,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/STEP": {
     "poolId": "SOL/STEP",
     "poolAccount": "8HmcgGvWKN9p9bivkMzaV2Ssf1i8xv3cPX3L1j3Lyr8a",
-    "tokenAAmount": "46146062863",
-    "tokenBAmount": "8283357338788",
+    "tokenAAmount": "45918380109",
+    "tokenBAmount": "8325455334278",
     "poolTokenSupply": "4473117065377",
     "apy": {
-      "day": "0.062874741699645567365",
-      "week": "0.11061148214590340597",
-      "month": "0.37685591536159322868"
+      "day": "0.049577895332712143997",
+      "week": "0.096738253184151769798",
+      "month": "0.35668182651225056025"
     },
     "volume": {
-      "day": "1378.6361093083874",
-      "week": "8599.406163090887",
-      "month": "171942.1481398287"
+      "day": "1060.7432357100975",
+      "week": "8605.12698279948",
+      "month": "163539.18757001322"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.0395410906209773,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.06260027005018079,
+    "riskLevelModifiedTime": 1633364210744
   },
   "OXY/SOL": {
     "poolId": "OXY/SOL",
@@ -266,38 +266,38 @@
     "tokenBAmount": "719656885",
     "poolTokenSupply": "44657284274",
     "apy": {
-      "day": "0.0022310176145431811952",
-      "week": "0.010539809823428076112",
-      "month": "0.02195028533652423049"
+      "day": "0.0022464329696956346011",
+      "week": "0.0099945384114691833225",
+      "month": "0.021950268403260221174"
     },
     "volume": {
       "day": "0.50061333",
-      "week": "15.069758925545",
+      "week": "14.354781895945",
       "month": "127.4069287239775"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.03906612831955088,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.049649223221677564,
+    "riskLevelModifiedTime": 1633364210744
   },
   "MER/SOL": {
     "poolId": "MER/SOL",
     "poolAccount": "8JFmga7ckN4y5tn9SDoV9gXkAyXXcAnKNYcbxwgqugEC",
-    "tokenAAmount": "13759839069",
-    "tokenBAmount": "42484361230",
+    "tokenAAmount": "13710472198",
+    "tokenBAmount": "42641470494",
     "poolTokenSupply": "4453301353347",
     "apy": {
-      "day": "0.035824041689299273822",
-      "week": "0.041409606668936461256",
-      "month": "0.13063009390915038275"
+      "day": "0.037952952887611060392",
+      "week": "0.03707746549298628823",
+      "month": "0.12977591558938516304"
     },
     "volume": {
-      "day": "604.9790449365075",
-      "week": "4421.0277897008355",
-      "month": "48502.59725330684"
+      "day": "813.0609454572775",
+      "week": "4380.555069608035",
+      "month": "48385.644577457875"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.19674938992168445,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.19730405331364406,
+    "riskLevelModifiedTime": 1633364210744
   },
   "FIDA/SOL": {
     "poolId": "FIDA/SOL",
@@ -306,18 +306,18 @@
     "tokenBAmount": "93092128794",
     "poolTokenSupply": "4590713836957",
     "apy": {
-      "day": "0.019236724198107690068",
-      "week": "0.033584053172320440444",
-      "month": "0.085509744350168857378"
+      "day": "0.015611025739649603537",
+      "week": "0.033219813779586996372",
+      "month": "0.084851475613590805638"
     },
     "volume": {
-      "day": "1039.4355788386251",
-      "week": "3294.397471813655",
-      "month": "54285.16431079507"
+      "day": "765.5705012119525",
+      "week": "3280.2642000853252",
+      "month": "53887.712684133796"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.035597125675348236,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.033990456996756555,
+    "riskLevelModifiedTime": 1633364210744
   },
   "MAPS/SOL": {
     "poolId": "MAPS/SOL",
@@ -326,514 +326,514 @@
     "tokenBAmount": "64819608270",
     "poolTokenSupply": "4960201479610",
     "apy": {
-      "day": "0.0035650823954005424567",
-      "week": "0.01128224168626329275",
-      "month": "0.069413109148973560119"
+      "day": "0.00059212235881767575751",
+      "week": "0.0097905093326817634156",
+      "month": "0.067736785652531564443"
     },
     "volume": {
-      "day": "98.15139904248",
-      "week": "1562.3749250971125",
-      "month": "45433.39022660943"
+      "day": "49.109200974080004",
+      "week": "1384.115529106045",
+      "month": "44330.903072409536"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.032200215354253936,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.061411315044970605,
+    "riskLevelModifiedTime": 1633364210744
   },
   "COPE/SOL": {
     "poolId": "COPE/SOL",
     "poolAccount": "5hDH3K7uK12xojeDrkCWa8HPD46JWV8w73Sz6dB1eZvJ",
-    "tokenAAmount": "4740240503",
-    "tokenBAmount": "64191544194",
+    "tokenAAmount": "4738234822",
+    "tokenBAmount": "64229628813",
     "poolTokenSupply": "4191406736195",
     "apy": {
-      "day": "0.040499071553395413275",
-      "week": "0.06384334977997858847",
-      "month": "0.37910367448510356934"
+      "day": "0.048490005781567076725",
+      "week": "0.059883148335520662309",
+      "month": "0.37512225446173376599"
     },
     "volume": {
-      "day": "1705.438876507495",
-      "week": "10865.090838440916",
-      "month": "263084.11326565116"
+      "day": "2045.2184151877075",
+      "week": "11015.75163851079",
+      "month": "260569.29947432302"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.06032665092892121,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.05461475444402707,
+    "riskLevelModifiedTime": 1633364210744
   },
   "USDC/USDT[stable]": {
     "poolId": "USDC/USDT[stable]",
     "poolAccount": "FX5UWkujjpU4yKB4yvKVEzG2Z8r2PLmLpyVmv12yqAUQ",
-    "tokenAAmount": "1380525502",
-    "tokenBAmount": "1313203403",
+    "tokenAAmount": "1379928108",
+    "tokenBAmount": "1313801125",
     "poolTokenSupply": "2652307311",
     "apy": {
-      "day": "0.0000040370679107176532794",
-      "week": "0.0000035947500659957354216",
-      "month": "0.0011280603658462340249"
+      "day": "0.000084279248310310798362",
+      "week": "0.000015625568984378106264",
+      "month": "0.0011308685182373775521"
     },
     "volume": {
-      "day": "0.063921",
-      "week": "0.18953515",
-      "month": "302.08397715"
+      "day": "0.0023",
+      "week": "0.19183515",
+      "month": "302.08627715"
     },
     "riskLevel": "minimal",
     "riskLevelVolatility": 0.00014428829708997733,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/USDC[aquafarm]": {
     "poolId": "SOL/USDC[aquafarm]",
     "poolAccount": "EGZ7tiLeH62TPV1gL8WwbXGzEPa9zmcpVnnkPKKnrE2U",
-    "tokenAAmount": "470336528337034",
-    "tokenBAmount": "78797326073893",
-    "poolTokenSupply": "74020175118501",
+    "tokenAAmount": "467886422439682",
+    "tokenBAmount": "79323982783924",
+    "poolTokenSupply": "74050392193346",
     "apy": {
-      "day": "0.14547417598968543957",
-      "week": "0.17212717869091453198",
-      "month": "0.26470161748919649198"
+      "day": "0.18631706947973717073",
+      "week": "0.17223781029884097327",
+      "month": "0.265463979410136331"
     },
     "volume": {
-      "day": "25902805.561399892",
-      "week": "134556824.51813933",
-      "month": "456793811.05293584"
+      "day": "30816093.605402198",
+      "week": "142530240.51508832",
+      "month": "470591657.4390469"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.24436076692957692,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.22999123171524422,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOL/USDT[aquafarm]": {
     "poolId": "SOL/USDT[aquafarm]",
     "poolAccount": "Dqk7mHQBx2ZWExmyrR2S8X6UG75CrbbpK2FSBZsNYsw6",
-    "tokenAAmount": "190727100942357",
-    "tokenBAmount": "32012425190853",
-    "poolTokenSupply": "30321739727358",
+    "tokenAAmount": "190229469638188",
+    "tokenBAmount": "32249617168500",
+    "poolTokenSupply": "30386382821768",
     "apy": {
-      "day": "0.11729329227069808783",
-      "week": "0.12272644982859147971",
-      "month": "0.19385857092934523949"
+      "day": "0.15340058796650557395",
+      "week": "0.12472494402693708887",
+      "month": "0.19494515657478164451"
     },
     "volume": {
-      "day": "8297781.379015363",
-      "week": "47480884.95950793",
-      "month": "154677403.12364006"
+      "day": "9848709.7331146",
+      "week": "49900637.620595634",
+      "month": "158670385.17224407"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.24418122023355096,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.2298137583749843,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ETH/SOL[aquafarm]": {
     "poolId": "ETH/SOL[aquafarm]",
     "poolAccount": "EuK3xDa4rWuHeMQCBsHf1ETZNiEQb5C476oE9u9kp8Ji",
-    "tokenAAmount": "9402652854",
-    "tokenBAmount": "188226223035562",
-    "poolTokenSupply": "28625435449580",
+    "tokenAAmount": "9564230664",
+    "tokenBAmount": "190358353912030",
+    "poolTokenSupply": "29029657953215",
     "apy": {
-      "day": "0.060835637469585630787",
-      "week": "0.057211160105611106389",
-      "month": "0.074441708881439645901"
+      "day": "0.075800615818971647874",
+      "week": "0.06041565647072474928",
+      "month": "0.075313016085025468279"
     },
     "volume": {
-      "day": "4298161.6244106125",
-      "week": "25452301.899500962",
-      "month": "54755198.84646254"
+      "day": "5412223.997547634",
+      "week": "27202176.65144182",
+      "month": "57374537.47367251"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.1125183641447096,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.11695328589194127,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ETH/USDC[aquafarm]": {
     "poolId": "ETH/USDC[aquafarm]",
     "poolAccount": "FgZut2qVQEyPBibaTJbbX2PxaMZvT1vjDebiVaDp5BWP",
-    "tokenAAmount": "12785798491",
-    "tokenBAmount": "43036934467362",
-    "poolTokenSupply": "79566936367677",
+    "tokenAAmount": "12894104985",
+    "tokenBAmount": "43557097448666",
+    "poolTokenSupply": "80375335331548",
     "apy": {
-      "day": "0.036537720743331093353",
-      "week": "0.062107652476868536163",
-      "month": "0.10483698264815070732"
+      "day": "0.067960195045453394202",
+      "week": "0.063221076968575809523",
+      "month": "0.10522438740207846281"
     },
     "volume": {
-      "day": "3635155.551428932",
-      "week": "32078467.279034413",
-      "month": "82326884.94573124"
+      "day": "4825922.471898",
+      "week": "32824671.895636715",
+      "month": "84240481.35631886"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.10434732902880467,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08613971554787028,
+    "riskLevelModifiedTime": 1633364210744
   },
   "RAY/SOL[aquafarm]": {
     "poolId": "RAY/SOL[aquafarm]",
     "poolAccount": "3THMPkPmcHJ54JtHRyazhs7UN7HbV5KiNJVLJs6hSPSC",
-    "tokenAAmount": "220168120948",
-    "tokenBAmount": "14695297610230",
-    "poolTokenSupply": "1336570075449",
+    "tokenAAmount": "220927330607",
+    "tokenBAmount": "14741085702116",
+    "poolTokenSupply": "1340728129616",
     "apy": {
-      "day": "0.07009032947775032526",
-      "week": "0.11743750820937541431",
-      "month": "0.22648687336499368398"
+      "day": "0.091201124536207196167",
+      "week": "0.10531719175001485646",
+      "month": "0.22364277375673646758"
     },
     "volume": {
-      "day": "484355.5582821354",
-      "week": "3794407.4257941516",
-      "month": "25579596.564970683"
+      "day": "454039.9257708232",
+      "week": "3689000.9864380946",
+      "month": "25286734.203208677"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.061970306442522057,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.06792431416006302,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ROPE/SOL[aquafarm]": {
     "poolId": "ROPE/SOL[aquafarm]",
     "poolAccount": "DCENobjFZK59nLeMCVRkQtnkAWrJkWAVpmVnwVNc8gqH",
-    "tokenAAmount": "851750826678371",
-    "tokenBAmount": "1969441854706",
-    "poolTokenSupply": "228051626666",
+    "tokenAAmount": "858028254311618",
+    "tokenBAmount": "1943111004023",
+    "poolTokenSupply": "227337881699",
     "apy": {
-      "day": "0.070837975251280706751",
-      "week": "0.1149192827030680912",
-      "month": "0.51805992876582008475"
+      "day": "0.05666901792709478582",
+      "week": "0.10185947640945855867",
+      "month": "0.51534630980111843743"
     },
     "volume": {
-      "day": "65338.89806047744",
-      "week": "462547.6294953986",
-      "month": "771311.7074952546"
+      "day": "57312.079891345355",
+      "week": "435783.043125311",
+      "month": "789139.4766118566"
     },
     "riskLevel": "medium",
-    "riskLevelVolatility": 0.3136925382620519,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.3224855495396874,
+    "riskLevelModifiedTime": 1633364210744
   },
   "STEP/SOL[aquafarm]": {
     "poolId": "STEP/SOL[aquafarm]",
     "poolAccount": "2sNtf8wLZMR7XJm2pzvvVUNPTNRFsGTiC5vgDSGv5QGD",
-    "tokenAAmount": "5023423542576852",
-    "tokenBAmount": "27790540430910",
-    "poolTokenSupply": "2000475460899",
+    "tokenAAmount": "5046215018428359",
+    "tokenBAmount": "27703518667753",
+    "poolTokenSupply": "2001548354991",
     "apy": {
-      "day": "0.11516326441071508908",
-      "week": "0.16982542005689170904",
-      "month": "0.23290606360234627845"
+      "day": "0.11432213203803664806",
+      "week": "0.15336214653285888104",
+      "month": "0.23026984461638232973"
     },
     "volume": {
-      "day": "1228578.0208535157",
-      "week": "10617934.393022459",
-      "month": "60607059.85247813"
+      "day": "1269786.8648010397",
+      "week": "9970836.745921887",
+      "month": "60449713.51613095"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.038037063640608146,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.05891234155928138,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SRM/SOL[aquafarm]": {
     "poolId": "SRM/SOL[aquafarm]",
     "poolAccount": "EJRXAkKyDhDgzdZz1Ss5CpWKWSK9xTR5S6GDLAer8mdh",
-    "tokenAAmount": "270034817049",
-    "tokenBAmount": "13838136330835",
-    "poolTokenSupply": "1473498403640",
+    "tokenAAmount": "278493640581",
+    "tokenBAmount": "14212922666525",
+    "poolTokenSupply": "1516326818617",
     "apy": {
-      "day": "0.095844908410378645541",
-      "week": "0.10758857462686910882",
-      "month": "0.28801000852551575102"
+      "day": "0.083815599381979007174",
+      "week": "0.098702265770556725814",
+      "month": "0.25927523267470407658"
     },
     "volume": {
-      "day": "542794.1963110797",
-      "week": "3558504.717495766",
-      "month": "7188499.7005002145"
+      "day": "466821.7315701374",
+      "week": "3631053.228515541",
+      "month": "7197611.579679985"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.08719237324313717,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.07824672071943546,
+    "riskLevelModifiedTime": 1633364210744
   },
   "FTT/SOL[aquafarm]": {
     "poolId": "FTT/SOL[aquafarm]",
     "poolAccount": "68Bg6yQxWm3mrUYk3XzMiF5ycE41HwPhyEdaB1cp6wuo",
-    "tokenAAmount": "91297678166",
-    "tokenBAmount": "29924027965290",
-    "poolTokenSupply": "4156112453690",
+    "tokenAAmount": "90654765894",
+    "tokenBAmount": "29705239736174",
+    "poolTokenSupply": "4125953107249",
     "apy": {
-      "day": "0.051009899248619013069",
-      "week": "0.06027066061342570116",
-      "month": "0.14256067023669979001"
+      "day": "0.053073762198141247263",
+      "week": "0.057975957999819236308",
+      "month": "0.14305855111979740405"
     },
     "volume": {
-      "day": "625470.5313498697",
-      "week": "4846352.943787839",
-      "month": "6800142.680763913"
+      "day": "621957.4450801441",
+      "week": "4850655.502830197",
+      "month": "7066801.498876955"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.2047313430290352,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.20268502586852846,
+    "riskLevelModifiedTime": 1633364210744
   },
   "COPE/SOL[aquafarm]": {
     "poolId": "COPE/SOL[aquafarm]",
     "poolAccount": "BRx4dJecxzeGYc1BskCWonfGCeMyv9G7tk66cf2QGhK6",
-    "tokenAAmount": "456588459847",
-    "tokenBAmount": "6157306531237",
-    "poolTokenSupply": "809472546141",
+    "tokenAAmount": "455018156150",
+    "tokenBAmount": "6181350935617",
+    "poolTokenSupply": "809560344903",
     "apy": {
-      "day": "0.053075343527211411428",
-      "week": "0.075954491379001907944",
-      "month": "0.29159772526562196676"
+      "day": "0.067025875821601650868",
+      "week": "0.073186847722400287433",
+      "month": "0.29018045432072817703"
     },
     "volume": {
-      "day": "174606.23774893035",
-      "week": "1054007.3838849033",
-      "month": "1234374.1247611414"
+      "day": "200977.634188194",
+      "week": "1132707.8551352436",
+      "month": "1329744.3512399336"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.06032665092892121,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.05461475444402707,
+    "riskLevelModifiedTime": 1633364210744
   },
   "OXY/SOL[aquafarm]": {
     "poolId": "OXY/SOL[aquafarm]",
     "poolAccount": "Cq4EZrvuFQpsCz8L3gS6t7iQ7VWzTtqDgSxD4AgVAAfd",
-    "tokenAAmount": "460491465455",
-    "tokenBAmount": "6484568815983",
-    "poolTokenSupply": "782155054919",
+    "tokenAAmount": "459162232353",
+    "tokenBAmount": "6393005580611",
+    "poolTokenSupply": "775441452228",
     "apy": {
-      "day": "0.037042255678427517089",
-      "week": "0.049551902404695869571",
-      "month": "0.11562903493510897978"
+      "day": "0.039277730157509527467",
+      "week": "0.046763712777994250574",
+      "month": "0.11581025718178560888"
     },
     "volume": {
-      "day": "93898.92138643542",
-      "week": "652304.8788440881",
-      "month": "802129.1983741242"
+      "day": "85974.99140412427",
+      "week": "678588.1674605007",
+      "month": "845335.2184540017"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.03906612831955088,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.049649223221677564,
+    "riskLevelModifiedTime": 1633364210744
   },
   "BTC/SOL[aquafarm]": {
     "poolId": "BTC/SOL[aquafarm]",
     "poolAccount": "7N2AEJ98qBs4PwEwZ6k5pj8uZBKMkZrKZeiC7A64B47u",
-    "tokenAAmount": "82735142",
-    "tokenBAmount": "23468785939353",
-    "poolTokenSupply": "3463628397681",
+    "tokenAAmount": "92107362",
+    "tokenBAmount": "26386653572594",
+    "poolTokenSupply": "3874458783104",
     "apy": {
-      "day": "0.095358795646458983392",
-      "week": "0.077136659650743893759",
-      "month": "0.15606933189483521683"
+      "day": "0.10309792736670980358",
+      "week": "0.077118310213439618789",
+      "month": "0.15620814024660808656"
     },
     "volume": {
-      "day": "949972.906746931",
-      "week": "4449682.242468565",
-      "month": "5498467.265871856"
+      "day": "1094901.5835486338",
+      "week": "4695367.327239973",
+      "month": "6012356.796915923"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.11028037176544554,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.10255238309289076,
+    "riskLevelModifiedTime": 1633364210744
   },
   "MER/SOL[aquafarm]": {
     "poolId": "MER/SOL[aquafarm]",
     "poolAccount": "UJBm2tHwDbQZpjQvaHozg5qkjh6prSKhnWheqR5T76Q",
-    "tokenAAmount": "937015402319",
-    "tokenBAmount": "2904013025437",
-    "poolTokenSupply": "417523668659",
+    "tokenAAmount": "1023679245889",
+    "tokenBAmount": "3156156067288",
+    "poolTokenSupply": "454895513636",
     "apy": {
-      "day": "0.047327896106079242657",
-      "week": "0.057062886650828535142",
-      "month": "0.13093832514652945166"
+      "day": "0.073563724604781056436",
+      "week": "0.056969242303045493681",
+      "month": "0.13202290898362507753"
     },
     "volume": {
-      "day": "57631.81295619204",
-      "week": "548202.8300836921",
-      "month": "692966.8947266024"
+      "day": "80369.1960073425",
+      "week": "587261.2787441831",
+      "month": "740131.143096428"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.19674938992168445,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.19730405331364406,
+    "riskLevelModifiedTime": 1633364210744
   },
   "FIDA/SOL[aquafarm]": {
     "poolId": "FIDA/SOL[aquafarm]",
     "poolAccount": "4SUBbivGMvMhem3ajVtkmuPvL4GuQ8kfYTJFuQfG4F8t",
-    "tokenAAmount": "165527924456",
-    "tokenBAmount": "6774631192680",
-    "poolTokenSupply": "586914356296",
+    "tokenAAmount": "166330123166",
+    "tokenBAmount": "6829456744958",
+    "poolTokenSupply": "590708383287",
     "apy": {
-      "day": "0.029171702472339899555",
-      "week": "0.046813980595542068497",
-      "month": "0.061471019660337302588"
+      "day": "0.020906169349375192584",
+      "week": "0.046578646573029963258",
+      "month": "0.061343667038999580972"
     },
     "volume": {
-      "day": "134707.35317545608",
-      "week": "724157.7088405252",
-      "month": "769054.3459834886"
+      "day": "84343.97096035417",
+      "week": "725880.3235213445",
+      "month": "771495.0924404203"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.035597125675348236,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.033990456996756555,
+    "riskLevelModifiedTime": 1633364210744
   },
   "MAPS/SOL[aquafarm]": {
     "poolId": "MAPS/SOL[aquafarm]",
     "poolAccount": "4rkgbbCPKk5zx3KiwcCNiSpNSSLgAkswKGfX7CJjGgtC",
-    "tokenAAmount": "947749293934",
-    "tokenBAmount": "5592130403619",
-    "poolTokenSupply": "622300683095",
+    "tokenAAmount": "954302370219",
+    "tokenBAmount": "5571220817030",
+    "poolTokenSupply": "623274078443",
     "apy": {
-      "day": "0.0077974359974581057277",
-      "week": "0.021106359004001576195",
-      "month": "0.035237424811838267122"
+      "day": "0.006066644309897574242",
+      "week": "0.018203174540916691949",
+      "month": "0.03484295235826688337"
     },
     "volume": {
-      "day": "17934.280413264336",
-      "week": "219418.29827714202",
-      "month": "280262.67481922725"
+      "day": "12490.09271472882",
+      "week": "213253.05477470084",
+      "month": "286964.72820247425"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.032200215354253936,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.061411315044970605,
+    "riskLevelModifiedTime": 1633364210744
   },
   "USDC/USDT[stable][aquafarm]": {
     "poolId": "USDC/USDT[stable][aquafarm]",
     "poolAccount": "F13xvvx45jVGd84ynK3c8T89UejQVxjCLtmHfPmAXAHP",
-    "tokenAAmount": "117364679009591",
-    "tokenBAmount": "112466602357157",
-    "poolTokenSupply": "229568533089285",
+    "tokenAAmount": "119270180070735",
+    "tokenBAmount": "114380585920615",
+    "poolTokenSupply": "233382712529480",
     "apy": {
-      "day": "0.0023238569757829916342",
-      "week": "0.003149738624444711113",
-      "month": "0.0062565213600966898989"
+      "day": "0.0020792814678940864775",
+      "week": "0.0031286960516685478309",
+      "month": "0.0062479403967772323238"
     },
     "volume": {
-      "day": "2845862.309754317",
-      "week": "21467217.49125655",
-      "month": "62869416.94957871"
+      "day": "2612018.7616589153",
+      "week": "22530849.83296923",
+      "month": "64384494.18434171"
     },
     "riskLevel": "minimal",
     "riskLevelVolatility": 0.00014428829708997733,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelModifiedTime": 1633364210744
   },
   "ORCA/SOL[aquafarm]": {
     "poolId": "ORCA/SOL[aquafarm]",
     "poolAccount": "2ZnVuidTHpi5WWKUwFXauYGhvdT9jRKYv5MDahtbwtYr",
-    "tokenAAmount": "2254245993883",
-    "tokenBAmount": "230951997464397",
-    "poolTokenSupply": "13335675988241",
+    "tokenAAmount": "2273221834363",
+    "tokenBAmount": "229961909024369",
+    "poolTokenSupply": "13361411597011",
     "apy": {
-      "day": "0.077644148578442013554",
-      "week": "0.098436327486017571889",
-      "month": "0.13198301811225851825"
+      "day": "0.085005036733026652248",
+      "week": "0.096790446119952669766",
+      "month": "0.13275246825434760373"
     },
     "volume": {
-      "day": "8048367.288881419",
-      "week": "57488668.45829087",
-      "month": "128757009.75884143"
+      "day": "8608144.929074306",
+      "week": "59323699.553537875",
+      "month": "132269316.51859497"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.09563074758673691,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.11658814401555553,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ORCA/USDC[aquafarm]": {
     "poolId": "ORCA/USDC[aquafarm]",
     "poolAccount": "2p7nYbtPBgtmY69NsE8DAW6szpRJn7tQvDnqvoEWQvjY",
-    "tokenAAmount": "2017933376487",
-    "tokenBAmount": "34822707311396",
-    "poolTokenSupply": "24166818590875",
+    "tokenAAmount": "2073256065387",
+    "tokenBAmount": "35353016703730",
+    "poolTokenSupply": "24676350850603",
     "apy": {
-      "day": "0.11335693675288015997",
-      "week": "0.15459431965555047541",
-      "month": "0.19056671541515322915"
+      "day": "0.1344699142057405035",
+      "week": "0.1505058251448079062",
+      "month": "0.19202469926573693681"
     },
     "volume": {
-      "day": "9545243.146666767",
-      "week": "71731990.18602079",
-      "month": "153047516.35250747"
+      "day": "10878788.165335251",
+      "week": "73269568.19839889",
+      "month": "158332921.9351502"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.12536161652049627,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08658883685415703,
+    "riskLevelModifiedTime": 1633364210744
   },
   "KIN/SOL[aquafarm]": {
     "poolId": "KIN/SOL[aquafarm]",
     "poolAccount": "Ez52BLSoZw3MxWxMK4ADsJXqzUiYW9sUnwcrrQwQGdLT",
-    "tokenAAmount": "1314060778704875",
-    "tokenBAmount": "6868086803821",
-    "poolTokenSupply": "1172324386004",
+    "tokenAAmount": "1318087790047860",
+    "tokenBAmount": "6819605519872",
+    "poolTokenSupply": "1169736911072",
     "apy": {
-      "day": "0.060292270484968593864",
-      "week": "0.070853865556611689937",
-      "month": "0.83329702994619116302"
+      "day": "0.10118855365036820988",
+      "week": "0.075286382400496208425",
+      "month": "0.82410619600020245577"
     },
     "volume": {
-      "day": "156490.62076045363",
-      "week": "992976.1646233572",
-      "month": "2649981.441153491"
+      "day": "241154.74890451352",
+      "week": "1115072.0135748528",
+      "month": "2785502.967920164"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.03528320418505262,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.07053325298008355,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SAMO/SOL[aquafarm]": {
     "poolId": "SAMO/SOL[aquafarm]",
     "poolAccount": "DiAP9qmp5foN7fLTWfBWjo9KBS1jgvKUJLWi1ZhqKaja",
-    "tokenAAmount": "62282106783519050",
-    "tokenBAmount": "2409257090225",
-    "poolTokenSupply": "258694339371",
+    "tokenAAmount": "61308847585043465",
+    "tokenBAmount": "2422192293406",
+    "poolTokenSupply": "257317832770",
     "apy": {
-      "day": "0.11346236267325793276",
-      "week": "0.11574401243638030675",
-      "month": "0.16543060463413315831"
+      "day": "0.095036145927547305718",
+      "week": "0.11030704969860850009",
+      "month": "0.16031665382841213156"
     },
     "volume": {
-      "day": "149286.74876904587",
-      "week": "762864.3551067534",
-      "month": "1023548.8930307059"
+      "day": "122895.0112680059",
+      "week": "768142.7244982014",
+      "month": "1080915.8588205758"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.08188322756505774,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.10115535863468544,
+    "riskLevelModifiedTime": 1633364210744
   },
   "LIQ/USDC[aquafarm]": {
     "poolId": "LIQ/USDC[aquafarm]",
     "poolAccount": "AXSeEafwPUGSamiZWH8m2PJtvpDVtrofxvycNwxiysdh",
-    "tokenAAmount": "1120939511706",
-    "tokenBAmount": "1658447828058",
-    "poolTokenSupply": "1464617499038",
+    "tokenAAmount": "1131573835825",
+    "tokenBAmount": "1632031533863",
+    "poolTokenSupply": "1459629632222",
     "apy": {
-      "day": "0.073980644932762974429",
-      "week": "0.10738501951880090839",
-      "month": "0.37982705531691601952"
+      "day": "0.077856956470618598399",
+      "week": "0.10479219256291783013",
+      "month": "0.37221889113775101191"
     },
     "volume": {
-      "day": "329662.93537594896",
-      "week": "2569088.211223439",
-      "month": "26186662.940889858"
+      "day": "284878.38337338995",
+      "week": "2508828.3813862633",
+      "month": "26124532.00435865"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.124364996021863,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.1208575506253483,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SNY/USDC[aquafarm]": {
     "poolId": "SNY/USDC[aquafarm]",
     "poolAccount": "BDn3Fj9UXVi2mRVMR2jzpCrAZZphnwfkvFhs192yhCTu",
-    "tokenAAmount": "105929920311",
-    "tokenBAmount": "566696668095",
-    "poolTokenSupply": "833364810482",
+    "tokenAAmount": "100314969800",
+    "tokenBAmount": "527346828220",
+    "poolTokenSupply": "782301434448",
     "apy": {
-      "day": "0.026887468520989997719",
-      "week": "0.037460454835883212051",
-      "month": "0.051903300605738191818"
+      "day": "0.026788190513013934874",
+      "week": "0.037941641976069849936",
+      "month": "0.05140039341287943377"
     },
     "volume": {
-      "day": "35507.973284",
-      "week": "170376.21826186503",
-      "month": "280161.89618677733"
+      "day": "28800.34751",
+      "week": "176215.30769486504",
+      "month": "286029.04266377736"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.06293714868084559,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.04845657857672924,
+    "riskLevelModifiedTime": 1633364210744
   },
   "mSOL/USDC[aquafarm]": {
     "poolId": "mSOL/USDC[aquafarm]",
     "poolAccount": "Hme4Jnqhdz2jAPUMnS7jGE5zv6Y1ynqrUEhmUAWkXmzn",
-    "tokenAAmount": "19712259485026",
-    "tokenBAmount": "3341486555828",
-    "poolTokenSupply": "4520895709950",
+    "tokenAAmount": "19868761293006",
+    "tokenBAmount": "3373165420236",
+    "poolTokenSupply": "4559329242530",
     "apy": {
-      "day": "0.067124996967126890578",
-      "week": "0.090550308215834859554",
-      "month": "0.13368955368730744417"
+      "day": "0.10889126768857149672",
+      "week": "0.092116433802262903449",
+      "month": "0.13537438932429227527"
     },
     "volume": {
-      "day": "679292.0967919789",
-      "week": "6382627.958436989",
-      "month": "11743124.433205009"
+      "day": "1161680.9228444183",
+      "week": "6900410.503832168",
+      "month": "12458080.681531686"
     },
     "riskLevel": "low",
     "riskLevelVolatility": 0.18589144739720884,
@@ -842,114 +842,114 @@
   "SLRS/USDC[aquafarm]": {
     "poolId": "SLRS/USDC[aquafarm]",
     "poolAccount": "87Xz6RK1uzP5NEhSjMewZtDAZyg4V1tYAa1KHnvge17b",
-    "tokenAAmount": "649600018795",
-    "tokenBAmount": "532445795106",
-    "poolTokenSupply": "668545954441",
+    "tokenAAmount": "650631823261",
+    "tokenBAmount": "538231832783",
+    "poolTokenSupply": "672604889017",
     "apy": {
-      "day": "0.022769827968485561911",
-      "week": "0.038298409226500584498",
-      "month": "0.19170668323273934254"
+      "day": "0.061402305818422359651",
+      "week": "0.040796134545603095875",
+      "month": "0.19290389589536987534"
     },
     "volume": {
-      "day": "31552.420860307117",
-      "week": "267574.38472560956",
-      "month": "1499180.0363572375"
+      "day": "72443.13799630712",
+      "week": "305699.80361960956",
+      "month": "1544948.577977351"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.0554755283637158,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.06077326742598493,
+    "riskLevelModifiedTime": 1633364210744
   },
   "PORT/USDC[aquafarm]": {
     "poolId": "PORT/USDC[aquafarm]",
     "poolAccount": "4if9Gy7dvjU7XwunKxdnCcPsaT3yAHPXdz2XS1eo19LG",
-    "tokenAAmount": "200018358183",
-    "tokenBAmount": "1531910056902",
-    "poolTokenSupply": "1430841946370",
+    "tokenAAmount": "201865752087",
+    "tokenBAmount": "1517571037350",
+    "poolTokenSupply": "1430441666641",
     "apy": {
-      "day": "0.6844381565113741674",
-      "week": "0.19901355933107979014",
-      "month": "0.31883034562633492764"
+      "day": "0.20051515356846962247",
+      "week": "0.20471395429507936786",
+      "month": "0.31094848610338643689"
     },
     "volume": {
-      "day": "2593064.359279418",
-      "week": "4211880.238142913",
-      "month": "12724555.02252159"
+      "day": "730474.9580134181",
+      "week": "4331643.258858914",
+      "month": "12635382.988073591"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.06060341777675749,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08451320585781148,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SBR/USDC[aquafarm]": {
     "poolId": "SBR/USDC[aquafarm]",
     "poolAccount": "HiYggjP2fN53Jw46e5UuskqNP3HH98jceRxEgVoeRwNw",
-    "tokenAAmount": "6173095578555",
-    "tokenBAmount": "1347089775462",
-    "poolTokenSupply": "4330129162833",
+    "tokenAAmount": "6321737974239",
+    "tokenBAmount": "1323871378287",
+    "poolTokenSupply": "4343078337355",
     "apy": {
-      "day": "0.14603926425793965733",
-      "week": "0.13633104938489231202",
+      "day": "0.15333706456838763211",
+      "week": "0.134035958507876941",
       "month": ""
     },
     "volume": {
-      "day": "435061.6164182944",
-      "week": "2529168.1805761834",
-      "month": "3994496.266424577"
+      "day": "432338.7291129833",
+      "week": "2574059.659748324",
+      "month": "4192417.185476041"
     },
-    "riskLevel": "low",
-    "riskLevelVolatility": 0.2482500728152713,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevel": "medium",
+    "riskLevelVolatility": 0.2806825491280993,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SOCN/USDC[aquafarm]": {
     "poolId": "SOCN/USDC[aquafarm]",
     "poolAccount": "6Gh36sNXrGWYiWr999d9iZtqgnipJbWuBohyHBN1cJpS",
-    "tokenAAmount": "6097626918593",
-    "tokenBAmount": "1032034807401",
-    "poolTokenSupply": "2025716064182",
+    "tokenAAmount": "6283677900021",
+    "tokenBAmount": "1064106310281",
+    "poolTokenSupply": "2087784906704",
     "apy": {
-      "day": "0.060829590922846242354",
-      "week": "0.073385365047072149981",
+      "day": "0.085063832381000701386",
+      "week": "0.074140130812291939922",
       "month": ""
     },
     "volume": {
-      "day": "201034.05069354767",
-      "week": "1146659.1918570707",
-      "month": "1539277.3844251723"
+      "day": "253976.8206024208",
+      "week": "1265572.4532874648",
+      "month": "1689824.119181275"
     },
     "riskLevel": "unknown"
   },
   "pSOL/USDC[aquafarm]": {
     "poolId": "pSOL/USDC[aquafarm]",
     "poolAccount": "GW1Xt9HHtvcnky8X7aBA3BoTgiirJKP5XwC5REFcZSsc",
-    "tokenAAmount": "14380239241048",
-    "tokenBAmount": "2328956679102",
-    "poolTokenSupply": "4783186103227",
+    "tokenAAmount": "14456897885146",
+    "tokenBAmount": "2331567545358",
+    "poolTokenSupply": "4798191163738",
     "apy": {
-      "day": "0.029490023161560904434",
-      "week": "0.052145833006226186473",
+      "day": "0.042956159249457725271",
+      "week": "0.051350055266148061769",
       "month": ""
     },
     "volume": {
-      "day": "351068.82897819503",
-      "week": "2385794.33282806",
-      "month": "5611854.900731821"
+      "day": "315873.427475695",
+      "week": "2422716.4633530476",
+      "month": "5794471.857912821"
     },
     "riskLevel": "unknown"
   },
   "mSOL/SOL[stable][aquafarm]": {
     "poolId": "mSOL/SOL[stable][aquafarm]",
     "poolAccount": "9EQMEzJdE2LDAY1hw1RytpufdwAXzatYfQ3M2UuT9b88",
-    "tokenAAmount": "81120383929770",
-    "tokenBAmount": "143978332029353",
-    "poolTokenSupply": "38925388955959",
+    "tokenAAmount": "82536150003328",
+    "tokenBAmount": "145845190798801",
+    "poolTokenSupply": "39492902760052",
     "apy": {
-      "day": "0.0050842250279676882247",
-      "week": "0.010939340181890834121",
+      "day": "0.0063141351050256151103",
+      "week": "0.01062000641947792674",
       "month": ""
     },
     "volume": {
-      "day": "1193367.7312884945",
-      "week": "11634720.683200924",
-      "month": "22340027.424751867"
+      "day": "1571626.541052765",
+      "week": "12161298.20651311",
+      "month": "23207554.007902935"
     },
     "riskLevel": "minimal",
     "riskLevelVolatility": 0.0037962108876146,
@@ -958,36 +958,36 @@
   "ORCA/PAI[aquafarm]": {
     "poolId": "ORCA/PAI[aquafarm]",
     "poolAccount": "7LfLiCnoLPefaCVuh6z92TK2tPZUa9bPjW7gHT4jqrec",
-    "tokenAAmount": "42053395944",
-    "tokenBAmount": "743055409039",
-    "poolTokenSupply": "778483581522",
+    "tokenAAmount": "43185482887",
+    "tokenBAmount": "735440940130",
+    "poolTokenSupply": "784808665402",
     "apy": {
-      "day": "0.056409480326549927237",
-      "week": "0.070512996556450387137",
+      "day": "0.036255575155171487928",
+      "week": "0.064936174683426578912",
       "month": ""
     },
     "volume": {
-      "day": "46109.55256155681",
-      "week": "279127.94740210765",
-      "month": "668233.944709376"
+      "day": "28920.36620716471",
+      "week": "274381.43188387057",
+      "month": "672714.4610421389"
     },
     "riskLevel": "unknown"
   },
   "ORCA/mSOL[aquafarm]": {
     "poolId": "ORCA/mSOL[aquafarm]",
     "poolAccount": "49tTgthTYLMPEqozZNyEQifqkGYxHqqDie9YxVczS3iB",
-    "tokenAAmount": "60242512263",
-    "tokenBAmount": "6131764265343",
-    "poolTokenSupply": "1126939434049",
+    "tokenAAmount": "61005262223",
+    "tokenBAmount": "6144634650616",
+    "poolTokenSupply": "1135159093810",
     "apy": {
-      "day": "0.049907907227681733378",
-      "week": "0.063967523702486047292",
+      "day": "0.053926209095607570086",
+      "week": "0.062525977694501843511",
       "month": ""
     },
     "volume": {
-      "day": "104492.16205032714",
-      "week": "565874.8096622302",
-      "month": "1041052.754995323"
+      "day": "113244.52023875796",
+      "week": "602551.2061574762",
+      "month": "1088100.991777297"
     },
     "riskLevel": "low",
     "riskLevelVolatility": 0.029156920653864746,
@@ -996,263 +996,263 @@
   "SOCN/SOL[stable][aquafarm]": {
     "poolId": "SOCN/SOL[stable][aquafarm]",
     "poolAccount": "2q6UMko5kTnv866W9MTeAFau94pLpsdeNjDdSYSgZUXr",
-    "tokenAAmount": "25726824207418",
-    "tokenBAmount": "38270803994749",
-    "poolTokenSupply": "11683165077871",
+    "tokenAAmount": "25719035344902",
+    "tokenBAmount": "38337401178828",
+    "poolTokenSupply": "11693784025437",
     "apy": {
-      "day": "0.022126155958300212618",
-      "week": "0.016781628707945489283",
+      "day": "0.0064958653964175013958",
+      "week": "0.016788299176922368858",
       "month": ""
     },
     "volume": {
-      "day": "1226657.6580696006",
-      "week": "5454723.05064311",
-      "month": "6703554.210804192"
+      "day": "447112.1769687162",
+      "week": "5593134.6726241335",
+      "month": "6876246.02671029"
     },
     "riskLevel": "unknown"
   },
   "ATLAS/USDC[aquafarm]": {
     "poolId": "ATLAS/USDC[aquafarm]",
     "poolAccount": "3V5sjXj1mrWjjB1Xt6Xwp554QwHE5fppGSxbk4GzAtEW",
-    "tokenAAmount": "12520587356132815",
-    "tokenBAmount": "14449088861431",
-    "poolTokenSupply": "27355182369632",
+    "tokenAAmount": "13095874913309334",
+    "tokenBAmount": "17226092269116",
+    "poolTokenSupply": "30533157274021",
     "apy": {
-      "day": "0.12485941681858223354",
-      "week": "0.10734489233528425316",
+      "day": "0.24142865716571891468",
+      "week": "0.12557786948754962638",
       "month": ""
     },
     "volume": {
-      "day": "3502681.041709289",
-      "week": "18609235.308480684",
-      "month": "21775578.833433885"
+      "day": "6743378.291194196",
+      "week": "22292035.173139144",
+      "month": "25916851.166972753"
     },
-    "riskLevel": "medium",
-    "riskLevelVolatility": 0.4290988145853303,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevel": "high",
+    "riskLevelVolatility": 0.589890825738797,
+    "riskLevelModifiedTime": 1633364210744
   },
   "POLIS/USDC[aquafarm]": {
     "poolId": "POLIS/USDC[aquafarm]",
     "poolAccount": "CdKPtCb5fBRaGFS4bJgytfReeHuFyhpe9YUyWHPnEWZG",
-    "tokenAAmount": "144636321612764",
-    "tokenBAmount": "12101433170499",
-    "poolTokenSupply": "23750202993165",
+    "tokenAAmount": "148485864319222",
+    "tokenBAmount": "12871541090347",
+    "poolTokenSupply": "24812208904521",
     "apy": {
-      "day": "0.072910954287049883256",
-      "week": "0.052655810166910892965",
+      "day": "0.12045268327255097456",
+      "week": "0.061575601173087482758",
       "month": ""
     },
     "volume": {
-      "day": "1536907.1271672926",
-      "week": "7360472.8667466305",
-      "month": "9168142.988537304"
+      "day": "2281825.410955918",
+      "week": "8450729.704794988",
+      "month": "10479630.747017661"
     },
-    "riskLevel": "low",
-    "riskLevelVolatility": 0.23936386352922873,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevel": "medium",
+    "riskLevelVolatility": 0.2711801054755236,
+    "riskLevelModifiedTime": 1633364210744
   },
   "BOP/USDC[aquafarm]": {
     "poolId": "BOP/USDC[aquafarm]",
     "poolAccount": "9pheQ8EX2wDKHZYm75G9haEbTyAcg8F2gFWybw2w6Vyc",
-    "tokenAAmount": "678865112890729",
-    "tokenBAmount": "791913159425",
-    "poolTokenSupply": "1217784317172",
+    "tokenAAmount": "702311443053228",
+    "tokenBAmount": "789407513456",
+    "poolTokenSupply": "1236508539462",
     "apy": {
-      "day": "0.085329022729513148369",
-      "week": "0.091821928799145401603",
+      "day": "0.082200310198632019999",
+      "week": "0.094901048465219716115",
       "month": ""
     },
     "volume": {
-      "day": "150911.60760224398",
-      "week": "793980.4694634755",
-      "month": "1257064.0036214567"
+      "day": "113905.28085331815",
+      "week": "798012.457005151",
+      "month": "1298946.1052169628"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.10113849053096793,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.14185053595239283,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SAMO/USDC[aquafarm]": {
     "poolId": "SAMO/USDC[aquafarm]",
     "poolAccount": "Epvp7qMYAF21VVjacdB3VfKn6nnXQSF4rGYu8sD6Bkow",
-    "tokenAAmount": "182571379506706201",
-    "tokenBAmount": "1191891675781",
-    "poolTokenSupply": "1650372342730",
+    "tokenAAmount": "201036946674740953",
+    "tokenBAmount": "1336663072164",
+    "poolTokenSupply": "1833778310288",
     "apy": {
-      "day": "0.12510193272860285966",
-      "week": "0.13451441703178813606",
+      "day": "0.075374645656959901063",
+      "week": "0.13010822645565144403",
       "month": ""
     },
     "volume": {
-      "day": "412117.64862565155",
-      "week": "2121939.0919338707",
-      "month": "2675971.0714808386"
+      "day": "272778.2084517311",
+      "week": "2164450.8313392773",
+      "month": "2808315.3567586266"
     },
     "riskLevel": "medium",
-    "riskLevelVolatility": 0.3462530427811014,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.35441143587691837,
+    "riskLevelModifiedTime": 1633364210744
   },
   "NINJA/SOL[aquafarm]": {
     "poolId": "NINJA/SOL[aquafarm]",
     "poolAccount": "3ECUtPokme1nimJfuAkMtcm7QYjDEfXRQzmGC16LuYnz",
-    "tokenAAmount": "1222155027007",
-    "tokenBAmount": "10946952237597",
-    "poolTokenSupply": "1981027657598",
+    "tokenAAmount": "1175650703610",
+    "tokenBAmount": "12824994129459",
+    "poolTokenSupply": "2101538420906",
     "apy": {
-      "day": "0.37405879792033208836",
-      "week": "0.17156252556986402774",
+      "day": "0.43923331377674715645",
+      "week": "0.19465532741974999998",
       "month": ""
     },
     "volume": {
-      "day": "2181317.2352234405",
-      "week": "4804288.210655501",
-      "month": "6129363.914599587"
+      "day": "3108392.464016272",
+      "week": "6082452.282926876",
+      "month": "7599208.259095336"
     },
     "riskLevel": "unknown"
   },
   "SLIM/USDC[aquafarm]": {
     "poolId": "SLIM/USDC[aquafarm]",
     "poolAccount": "8JPid6GtND2tU3A7x7GDfPPEWwS36rMtzF7YoHU44UoA",
-    "tokenAAmount": "369468826022",
-    "tokenBAmount": "964763006406",
-    "poolTokenSupply": "2177222439892",
+    "tokenAAmount": "382630164245",
+    "tokenBAmount": "935141738411",
+    "poolTokenSupply": "2180939821283",
     "apy": {
-      "day": "0.092330584990115352452",
-      "week": "0.11040517986168595987",
+      "day": "0.13166974492920841892",
+      "week": "0.10453229855125329625",
       "month": ""
     },
     "volume": {
-      "day": "190434.1472065487",
-      "week": "1274183.534602754",
-      "month": "2167276.7238682974"
+      "day": "205570.47924155858",
+      "week": "1298575.3534978216",
+      "month": "2269205.542788365"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.043830058241442885,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.037780417462650796,
+    "riskLevelModifiedTime": 1633364210744
   },
   "wHAPI/USDC[aquafarm]": {
     "poolId": "wHAPI/USDC[aquafarm]",
     "poolAccount": "2Y1Jmpkf5wt1X5zcFHNBDoHxqjTXbMJfj1UFtrYQwUbG",
-    "tokenAAmount": "10181042834749",
-    "tokenBAmount": "756856813746",
-    "poolTokenSupply": "1147472829775",
+    "tokenAAmount": "10423155380206",
+    "tokenBAmount": "811863163813",
+    "poolTokenSupply": "1202325003504",
     "apy": {
-      "day": "0.017990196224513942348",
-      "week": "0.076449544435896932852",
+      "day": "0.055065777892443839067",
+      "week": "0.074436540265974961191",
       "month": ""
     },
     "volume": {
-      "day": "37586.01905",
-      "week": "678393.4468091639",
-      "month": "1228467.2962532507"
+      "day": "101743.32311119649",
+      "week": "713201.6279423604",
+      "month": "1316328.224465447"
     },
-    "riskLevel": "minimal",
-    "riskLevelVolatility": 0.00801055284239725,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevel": "low",
+    "riskLevelVolatility": 0.08491081860962797,
+    "riskLevelModifiedTime": 1633364210744
   },
   "COPE/USDC[aquafarm]": {
     "poolId": "COPE/USDC[aquafarm]",
     "poolAccount": "DhGTKyT6RVkpvPxXAJodi4Z41RSvQZxV1f5eRvJ5bE4r",
-    "tokenAAmount": "541484416254",
-    "tokenBAmount": "1226043678772",
-    "poolTokenSupply": "2446874833941",
+    "tokenAAmount": "528300866737",
+    "tokenBAmount": "1215112835057",
+    "poolTokenSupply": "2405695504988",
     "apy": {
-      "day": "0.088582677395538624729",
-      "week": "0.11520696555139859516",
+      "day": "0.10411653983437484447",
+      "week": "0.11376800272955774727",
       "month": ""
     },
     "volume": {
-      "day": "272765.1039128291",
-      "week": "1716885.203591911",
-      "month": "2269727.0699578915"
+      "day": "323067.6286859037",
+      "week": "1802963.5719674805",
+      "month": "2421553.2093603634"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.16929264931337168,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.16281556262680993,
+    "riskLevelModifiedTime": 1633364210744
   },
   "SUNNY/USDC[aquafarm]": {
     "poolId": "SUNNY/USDC[aquafarm]",
     "poolAccount": "3Ukqqshh3kZ8UPbcYYFSRaeJcsgttcmShtNNn12F1rj2",
-    "tokenAAmount": "28070462729513",
-    "tokenBAmount": "853286549616",
-    "poolTokenSupply": "2103419356715",
+    "tokenAAmount": "28679213241644",
+    "tokenBAmount": "837579841885",
+    "poolTokenSupply": "2105717716178",
     "apy": {
-      "day": "0.19285820553676054253",
-      "week": "0.19741097220350881545",
+      "day": "0.20206449769476047464",
+      "week": "0.1964904062128572269",
       "month": ""
     },
     "volume": {
-      "day": "418490.4150130621",
-      "week": "2624005.038418153",
-      "month": "3570235.3713210053"
+      "day": "502044.8047328002",
+      "week": "2771765.2506700666",
+      "month": "3849838.42622492"
     },
     "riskLevel": "medium",
-    "riskLevelVolatility": 0.2543100026360241,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.27752581061451737,
+    "riskLevelModifiedTime": 1633364210744
   },
   "GRAPE/USDC[aquafarm]": {
     "poolId": "GRAPE/USDC[aquafarm]",
     "poolAccount": "6MxUhBLXHCqpdYaFPTmw1D9fQ7zYnm9grZyJvpGiqr15",
-    "tokenAAmount": "2898390042767",
-    "tokenBAmount": "569563679057",
-    "poolTokenSupply": "1010290092391",
+    "tokenAAmount": "3074129811859",
+    "tokenBAmount": "553556945322",
+    "poolTokenSupply": "1025590120811",
     "apy": {
-      "day": "0.11622347445483615047",
-      "week": "0.10382367840470409903",
+      "day": "0.11561855042391806352",
+      "week": "0.10026148928382737308",
       "month": ""
     },
     "volume": {
-      "day": "150623.72344920516",
-      "week": "534158.4214169199",
-      "month": "773462.1864472307"
+      "day": "157733.375861597",
+      "week": "570435.76657472",
+      "month": "829677.4753840639"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.09743272048626028,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.017342082576193914,
+    "riskLevelModifiedTime": 1633364210744
   },
   "ABR/USDC[aquafarm]": {
     "poolId": "ABR/USDC[aquafarm]",
     "poolAccount": "rxwsjytcEBvXpXrXBL1rpsjhoh78imBn8WbxjKmLRge",
-    "tokenAAmount": "42594366802535",
-    "tokenBAmount": "322469861880",
-    "poolTokenSupply": "184121771577",
-    "apy": { "day": "1.8621486069537487632", "week": "", "month": "" },
+    "tokenAAmount": "39805813974360",
+    "tokenBAmount": "350348241920",
+    "poolTokenSupply": "185066697523",
+    "apy": { "day": "1.6812526087833933066", "week": "", "month": "" },
     "volume": {
-      "day": "1280135.6541446191",
-      "week": "4687773.621285114",
-      "month": "4687773.621285114"
+      "day": "1185882.10113572",
+      "week": "5151521.926030716",
+      "month": "5151521.926030716"
     },
     "riskLevel": "unknown"
   },
   "KURO/USDC[aquafarm]": {
     "poolId": "KURO/USDC[aquafarm]",
     "poolAccount": "HdeYs4bpJKN2oTb7PHxbqq4kzKiLr772A5N2gWjY57ZT",
-    "tokenAAmount": "570830587182",
-    "tokenBAmount": "64453167885",
-    "poolTokenSupply": "111716213219",
-    "apy": { "day": "0.37619092829099997616", "week": "", "month": "" },
+    "tokenAAmount": "1057315324649",
+    "tokenBAmount": "112134558689",
+    "poolTokenSupply": "200486513303",
+    "apy": { "day": "0.2270820818019028003", "week": "", "month": "" },
     "volume": {
-      "day": "64049.48973034266",
-      "week": "546238.1001513895",
-      "month": "546238.1001513895"
+      "day": "46101.80684984266",
+      "week": "560486.1588358895",
+      "month": "560486.1588358895"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.21444803361800752,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.12577142470002464,
+    "riskLevelModifiedTime": 1633364210744
   },
   "MEDIA/USDC[aquafarm]": {
     "poolId": "MEDIA/USDC[aquafarm]",
     "poolAccount": "5L2aVMnNsmrnkxU4B25ajb2pR5AJWBRfUa73wjasjyaB",
-    "tokenAAmount": "2371055741",
-    "tokenBAmount": "111563535296",
-    "poolTokenSupply": "213384274747",
-    "apy": { "day": "0.0055770290472411139686", "week": "", "month": "" },
+    "tokenAAmount": "2372525815",
+    "tokenBAmount": "111552321721",
+    "poolTokenSupply": "213393497178",
+    "apy": { "day": "0.081901468644124798111", "week": "", "month": "" },
     "volume": {
-      "day": "1533.945358",
-      "week": "14109.03019875",
-      "month": "14109.03019875"
+      "day": "24412.749316",
+      "week": "37748.89703075",
+      "month": "37748.89703075"
     },
     "riskLevel": "low",
-    "riskLevelVolatility": 0.08230317081870776,
-    "riskLevelModifiedTime": 1633314817156
+    "riskLevelVolatility": 0.08693823839093545,
+    "riskLevelModifiedTime": 1633364210744
   }
 }
