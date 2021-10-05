@@ -4,7 +4,6 @@ import {
   Orca,
   OrcaPoolConfig,
   getTokenCount,
-  PoolTokenCount,
   OrcaU64,
   OrcaToken,
   OrcaPoolToken,
@@ -46,7 +45,7 @@ export default class OrcaExchange {
     }
 
     // get current amount of each token in the pool
-    const tokenCount: PoolTokenCount = await getTokenCount(
+    const tokenCount = await getTokenCount(
       this.connection,
       poolParams,
       tokenA,
@@ -64,11 +63,11 @@ export default class OrcaExchange {
     // get current quote for each token
     const priceA =
       tokenA.mint.toString() === this.usdcMint
-        ? 1
+        ? new Decimal(1)
         : await this.getOrcaTokenPrice(tokenA.mint.toString());
     const priceB =
       tokenB.mint.toString() === this.usdcMint
-        ? 1
+        ? new Decimal(1)
         : await this.getOrcaTokenPrice(tokenB.mint.toString());
 
     // calculate LP token price
