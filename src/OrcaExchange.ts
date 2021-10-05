@@ -27,7 +27,7 @@ export default class OrcaExchange {
     this.orca = getOrca(this.connection);
   }
 
-  public async getOrcaLpTokenPrice(pubkey: string): Promise<number | null> {
+  public async getOrcaLpTokenPrice(pubkey: string): Promise<Decimal | null> {
     // get public key of pool
     let poolConfig: OrcaPoolConfig;
     let pool: OrcaPool;
@@ -55,26 +55,29 @@ export default class OrcaExchange {
     const numTokenA = new OrcaU64(
       tokenCount.inputTokenCount,
       tokenA.scale
-    ).toNumber();
+    ).toDecimal();
     const numTokenB = new OrcaU64(
       tokenCount.outputTokenCount,
       tokenB.scale
-    ).toNumber();
+    ).toDecimal();
 
     // get current quote for each token
     const priceA =
       tokenA.mint.toString() === this.usdcMint
         ? 1
-        : await this.getUSDCPrice(tokenA.mint.toString());
+        : await this.getOrcaTokenPrice(tokenA.mint.toString());
     const priceB =
       tokenB.mint.toString() === this.usdcMint
         ? 1
-        : await this.getUSDCPrice(tokenB.mint.toString());
+        : await this.getOrcaTokenPrice(tokenB.mint.toString());
 
     // calculate LP token price
-    const poolLiquidity = numTokenA * priceA + numTokenB * priceB;
-    const supply = (await pool.getLPSupply()).toNumber();
-    const lpTokenPrice = poolLiquidity / supply;
+    const poolLiquidity = Decimal.add(
+      Decimal.mul(numTokenA, priceA),
+      Decimal.mul(numTokenB, priceB)
+    );
+    const supply = (await pool.getLPSupply()).toDecimal();
+    const lpTokenPrice = Decimal.div(poolLiquidity, supply);
     return lpTokenPrice;
   }
   // Look in Orca configs for a given base and quote mint address
@@ -95,7 +98,7 @@ export default class OrcaExchange {
     throw `couldnt find pool for ${baseMint}/${quoteMint}`;
   }
   // Return the latest quote for a given USDC pool
-  public async getUSDCPrice(baseMint: string): Promise<number> {
+  public async getOrcaTokenPrice(baseMint: string): Promise<Decimal> {
     const poolConfig = await this.findPool(baseMint, this.usdcMint);
     const pool = this.orca.getPool(poolConfig);
     return (
@@ -104,8 +107,6 @@ export default class OrcaExchange {
         new Decimal(1),
         new Decimal(0.5) // low slippage
       )
-    )
-      .getRate()
-      .toNumber();
+    ).getRate();
   }
 }
